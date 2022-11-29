@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String testMapping() {
-        return "port : 8083";
+        return "keystore";
     }
 
     @GetMapping("/ping")
